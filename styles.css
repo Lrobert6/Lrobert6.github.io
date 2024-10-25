@@ -1,3 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+.navbar {
+    background-color: #c7bebe;
+    width: 100%;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:50px;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -11,4 +31,16 @@ li {
 li>a {
     text-decoration: none;
     color: black;
+    border-left: 1px solid black;
+    padding: 10px;
+    font-size:1.5rem;
+    
+}
+
+li>a:hover {
+    font-weight:bolder;
+}
+
+ul li:last-child a {
+    border-right: 1px solid black;
 }
